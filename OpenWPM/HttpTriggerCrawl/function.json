@@ -1,0 +1,20 @@
+{
+  "scriptFile": "/home/kali/Desktop/Project/OpenWPM/ProjectCrawlAlexa.py",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }
+  ]
+}
